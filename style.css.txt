@@ -1,0 +1,38 @@
+body {
+  background: url('blue-texture.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo-container {
+  text-align: center;
+  color: white;
+  font-family: 'Playfair Display', cursive;
+  position: relative;
+}
+
+.brand-name {
+  font-size: 4rem;
+  opacity: 0;
+}
+
+.subtext {
+  font-size: 1.2rem;
+  opacity: 0;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.swoosh {
+  width: 150px;
+  height: 4px;
+  background: gold;
+  border-radius: 50px;
+  margin: 10px auto;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
